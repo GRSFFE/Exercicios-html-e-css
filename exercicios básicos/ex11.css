@@ -1,0 +1,11 @@
+div.exemplo1 {
+    width: 300px;
+    background-color: yellow;
+}
+
+div.exemplo2 {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
