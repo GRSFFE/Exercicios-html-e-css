@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    background-color: #EEE;
+    border: 2px solid red;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    /* Alinhamento Horizontal */
+    justify-content: space-between;
+    /* Alinhamento Vertical */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #CCC;
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+}
+
+.box {
+    background-color: #CCC;
+    border: 2px solid blue;
+    height: 50px;
+    flex: 1 1 50px; /* Grow, Shrink e Basis*/
+}
+
+/* Flex-basis: Define o tamanho base do elemento.*/
+/* Flex-grow: Faz um item crescer dentro do container.*/
+/* Flex-shrink: Faz um item diminuir dentro do container.*/
+/* Order: Faz a ordem de um item mudar.*/
+
+ #item-1 {
+    order: 2;
+ }
+
+ #item-2 {
+    order: 3;
+ }
+
+ #item-3 {
+    order: 1;
+ }
