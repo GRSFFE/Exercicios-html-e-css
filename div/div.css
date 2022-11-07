@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.esquerdacima {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    text-transform: uppercase;
+    
+}
+
+.direitacima {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    float: right;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    
+}
+
+.esquerdabaixo {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+}
+
+.direitabaixo {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-transform: uppercase;
+}
